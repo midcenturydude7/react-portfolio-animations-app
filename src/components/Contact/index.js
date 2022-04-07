@@ -71,10 +71,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Matt Griffes,
-          <br />
-          United States,
-          <br />
+          Matt Griffes <br />
           3418 SE Cora Dr. <br />
           Portland, OR <br />
           <span>mgriffes@gmail.com</span>
