@@ -1,11 +1,12 @@
 .nav-bar {
-  background: #181818;
+  background: #7f7f76;
   width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
   min-height: 500px;
+  box-shadow: 5px 0px 15px #5f5f58;
 
   .logo {
     display: block;
@@ -35,7 +36,7 @@
     a {
       font-family: Helvetica-Neue, sans-serif; // added here in place of inability to register global style change in src/index.css
       font-size: 22px;
-      color: #4d4d4e;
+      color: #4a4a45;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -47,7 +48,8 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #2a2a27;
+        font-weight: 700;
 
         svg {
           opacity: 0;
@@ -61,7 +63,7 @@
       &:after {
         content: "";
         font-size: 9px;
-        letter-spacing: 2px;
+        letter-spacing: 1.2px;
         position: absolute;
         bottom: 0;
         display: block;
@@ -72,7 +74,7 @@
       }
 
       &:first-child {
-        &::after {
+        &:after {
           content: "HOME";
         }
       }
@@ -86,20 +88,20 @@
 
     a.contact-link {
       &:after {
-        content: "CONTACT";
+        content: "SAY HI!";
       }
     }
 
     a.active {
       svg {
-        color: #ffd700;
+        color: #a7a7a0;
       }
     }
   }
 
   ul {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     width: 100%;
     display: block;
     padding: 0;
@@ -111,11 +113,11 @@
       a {
         padding: 7px 0;
         display: block;
-        font-size: 15px;
-        line-height: 16px;
+        font-size: 18px;
+        line-height: 18px;
 
         &:hover svg {
-          color: #ffd700;
+          color: #a7a7a0;
         }
       }
     }

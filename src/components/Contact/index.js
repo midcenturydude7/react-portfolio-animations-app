@@ -20,7 +20,7 @@ const Contact = () => {
     event.preventDefault();
 
     emailjs
-      .sendForm("")
+      .sendForm()
       .then(
         () => {
           alert("Message successfully sent!");
@@ -39,7 +39,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["C", "o", "n", "t", "a", "c", "t", " ", "m", "e"]}
+              strArray={["S", "a", "y", "", "H", "i", "!"]}
               idx={15}
             />
           </h1>
