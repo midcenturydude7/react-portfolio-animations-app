@@ -71,14 +71,14 @@
     border-radius: 4px;
 
     &:hover {
-      background: #898980;
+      background: rgba(137, 137, 128, 0.3);
       color: #353531;
       font-weight: 700;
     }
 
     &:active {
-      background: 0 0;
-      color: #a7a7a0;
+      background: rgba(137, 137, 128, 0.7);
+      color: #353531;
       font-weight: 700;
     }
   }

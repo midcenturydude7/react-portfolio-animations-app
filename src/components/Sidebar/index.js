@@ -4,7 +4,7 @@ import "./index.scss";
 import LogoS from "../../assets/images/logo-s.png";
 import LogoSubtitle from "../../assets/images/logo_sub.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIdCard, faDiagramProject, faEarthAmericas, faMountainCity } from "@fortawesome/free-solid-svg-icons";
+import { faIdCard, faToolbox, faEarthAmericas, faMountainCity } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faDiscord, faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => {
@@ -23,7 +23,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faIdCard} color="#4a4a4f" />
           </NavLink>
           <NavLink exact="true" activeclassname="active" className="work-link" to="/work">
-            <FontAwesomeIcon icon={faDiagramProject} color="#4a4a4f" />
+            <FontAwesomeIcon icon={faToolbox} color="#4a4a4f" />
           </NavLink>
           <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
             <FontAwesomeIcon icon={faMountainCity} color="#4a4a4f" />

@@ -76,14 +76,14 @@
     white-space: nowrap;
 
     &:hover {
-      background: #898980;
+      background: rgba(137, 137, 128, 0.3);
       color: #353531;
       font-weight: 700;
     }
 
     &:active {
       background: 0 0;
-      color: #353531;
+      color: rgba(137, 137, 128, 0.7);
       font-weight: 700;
     }
   }
