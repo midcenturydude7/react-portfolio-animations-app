@@ -1,37 +1,57 @@
 .logo-container {
   z-index: 0;
-  width: 400px;
-  height: 609px;
+  width: 600px;
+  height: 600px;
   position: absolute;
-  top: 0;
-  right: 15%;
+  top: -15%;
+  right: 10%;
   bottom: 0;
-  left: auto;
+  left: 0;
   margin: auto;
-  opacity: 0;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
-  }
+  // svg {
+  //   width: 100%;
+  //   height: auto;
+  //   bottom: 0;
+  //   transform: rotateZ(0deg) !important;
+  // }
+}
 
-  .solid-logo {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    width: 100%;
-    opacity: 0;
-    transform: rotateZ(30deg);
-    z-index: 1;
+#mLogo {
+  animation: fill 5s ease forwards 2s;
+  opacity: 0.8;
+}
+
+#mLogo path:nth-child(1) {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 2388;
+  animation: line-anim 2s ease forwards;
+}
+
+#mLogo path:nth-child(2) {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 4094;
+  animation: line-anim 2s ease forwards 0.75s;
+}
+
+#mLogo path:nth-child(3) {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 2388;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
   }
 }
 
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10px;
+@keyframes fill {
+  from {
+    fill: transparent;
+    stroke: rgba(11, 202, 202, 1);
+  }
+  to {
+    fill: rgba(226, 227, 223, 0.5);
+  }
 }

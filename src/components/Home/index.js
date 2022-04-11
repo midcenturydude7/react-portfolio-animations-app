@@ -3,15 +3,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Loader from "react-loaders";
-import LogoTitle from "../../assets/images/logo-s.png";
 import AnimatedLetters from "../AnimatedLetters";
 import Logo from "./Logo";
 import "./index.scss";
 
 const Home = () => {
   const [letterClass, setLetterClass] = React.useState("text-animate");
-  const nameArray = ["l", "o", "b", "o", "d", "a", "n"];
-  const jobArray = ["w", "e", "b", " ", "d", "e", "v", "e", "l", "o", "p", "e", "r"];
+  const nameArray = ["", "M", "a", "t", "t", "."];
+  const jobArray1 = ["I", "", "b", "u", "i", "l", "d", "", "t", "h", "i", "n", "g", "s", "", "f", "o", "r"];
+  const jobArray2 = ["t", "h", "e", "", "w", "e", "b"];
 
   React.useEffect(() => {
     return setTimeout(() => {
@@ -29,7 +29,6 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={LogoTitle} alt="developer" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -38,11 +37,16 @@ const Home = () => {
             <br />
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={jobArray}
-              idx={22}
+              strArray={jobArray1}
+              idx={18}
+            />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray2}
+              idx={29}
             />
           </h1>
-          <h2>Frontend Developer / Javascript Expert / YouTuber</h2>
           <Link to="/contact" className="flat-button">CONTACT ME</Link>
         </div>
         <Logo />
