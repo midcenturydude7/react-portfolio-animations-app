@@ -49,7 +49,7 @@ const Home = () => {
               idx={28}
             />
           </h1>
-          <Link to="/work" className="flat-button">CHECK IT OUT</Link>
+          <Link to="/work" className="flat-button">LEARN MORE</Link>
         </div>
         <Logo />
       </div>
