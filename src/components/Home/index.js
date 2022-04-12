@@ -11,7 +11,7 @@ const Home = () => {
   const [letterClass, setLetterClass] = React.useState("text-animate");
   const nameArray = ["", "M", "a", "t", "t", "."];
   const jobArray1 = ["I", "", "b", "u", "i", "l", "d", "", "t", "h", "i", "n", "g", "s", "", "f", "o", "r"];
-  const jobArray2 = ["t", "h", "e", "", "w", "e", "b"];
+  const jobArray2 = ["t", "h", "e", "", "w", "e", "b", "."];
 
   React.useEffect(() => {
     return setTimeout(() => {
@@ -29,25 +29,27 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={nameArray}
-              idx={15}
-            />
+            <span className="new-color">
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={nameArray}
+                idx={15}
+              />
+            </span>
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray1}
-              idx={18}
+              idx={16}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray2}
-              idx={29}
+              idx={28}
             />
           </h1>
-          <Link to="/contact" className="flat-button">CONTACT ME</Link>
+          <Link to="/work" className="flat-button">CHECK IT OUT</Link>
         </div>
         <Logo />
       </div>
