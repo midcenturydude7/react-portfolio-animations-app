@@ -1,12 +1,15 @@
 .nav-bar {
-  background: #7f7f76;
+  background: #d6d6d6;
   width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
   min-height: 500px;
-  box-shadow: 5px 0px 15px #5f5f58;
+  border-right: 1px dashed rgb(80, 79, 79);
+    box-shadow: 
+      0 0 1px 1px rgba(50, 230, 230, 0.61),
+      7px 0 20px -2px black;
 
   .logo {
     display: block;
@@ -17,10 +20,6 @@
       margin: 8px auto;
       width: 40px;
       height: auto;
-
-      &.sub-logo {
-        width: 50px;
-      }
     }
   }
 

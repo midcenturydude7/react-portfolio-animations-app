@@ -68,16 +68,25 @@
     white-space: nowrap;
 
     &:hover {
-      background: rgba(119, 175, 171, 0.3);
+      background: rgba(140, 248, 241, 0.4);
       color: #c4c4c0;
       font-weight: 700;
+      border: 1px dashed rgb(80, 79, 79);
+      box-shadow: 
+        0 0 1px 1px rgba(50, 230, 230, 0.61),
+        0 5px 5px -3px rgb(20, 20, 20);
     }
 
     &:active {
-      background: 0 0;
-      color: rgba(219, 217, 217, 0.7);
+      background: rgba(6, 240, 224, 0.5);
+      color: #c4c4c0;
       font-weight: 700;
+      border: 1px dashed rgb(80, 79, 79);
+      box-shadow: 
+        0 0 1px 1px rgba(50, 230, 230, 0.61),
+        0 5px 5px -3px rgb(20, 20, 20);
     }
+
   }
   .new-color {
     color: #68b9b3;
