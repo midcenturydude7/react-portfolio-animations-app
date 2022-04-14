@@ -42,7 +42,7 @@ const Work = () => {
         <div className="grid-header">
           <h1>Some things I&apos;ve built:</h1>
         </div>
-        <div className="grid-content-container">
+        <div className="grid-content-container-right">
           <div className="grid-content-card">Card One - a screenshot image</div>
           <div className="grid-content-card"></div>
           <div className="grid-content-card">A simple login application that allows the user

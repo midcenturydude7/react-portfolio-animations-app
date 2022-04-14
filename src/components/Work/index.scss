@@ -61,7 +61,7 @@ $gridGap: 2rem;
   font-size: 20px;
   color: #a7a7a0;
   position: absolute;
-  left: 10%;
+  left: 5%;
   top: 48.5%;
   transform: translateY(-50%);
   width: 60%;
@@ -89,7 +89,7 @@ $gridGap: 2rem;
   }
 }
 
-.grid-content-container {
+.grid-content-container-right {
   display: grid;
   grid-gap: 20px;
   height: 40vh;
