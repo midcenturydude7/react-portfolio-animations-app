@@ -45,7 +45,9 @@ const Work = () => {
         <div className="grid-content-container">
           <div className="grid-content-card">Card One - a screenshot image</div>
           <div className="grid-content-card"></div>
-          <div className="grid-content-card">Card Three</div>
+          <div className="grid-content-card">A simple login application that allows the user
+            to create a profile page and upload an avatar.
+          </div>
           <div className="grid-content-card"></div>
         </div>
       </div>

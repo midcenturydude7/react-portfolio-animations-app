@@ -55,24 +55,33 @@ $minWidth: 15rem;
 $gridGap: 2rem;
 
 .grid-container {
-  font-family: Helvetica Neue, sans-serif;
+  font-family: macho;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
   color: #a7a7a0;
   position: absolute;
   left: 10%;
-  top: 50%;
+  top: 48.5%;
   transform: translateY(-50%);
   width: 60%;
 }
 
 .grid-header {
+  font-family: Coolvetica;
+  letter-spacing: 2px;
+  margin-left: -25%;
+  margin-bottom: 3px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax($minWidth, 1fr));
-  grid-gap: $gridGap;
+  opacity: 0;
+  animation: fadeInLeft 2s 2s;
+  animation-fill-mode: forwards;  
+  // grid-template-columns: repeat(auto-fit, minmax($minWidth, 1fr));
+  // grid-gap: $gridGap;
 
-  & + .grid {
-    margin-top: $gridGap;
-  }
+  // & + .grid {
+  //   margin-top: $gridGap;
+  // }
 
   h1 {
     text-align: center;
@@ -83,10 +92,13 @@ $gridGap: 2rem;
 .grid-content-container {
   display: grid;
   grid-gap: 20px;
-  height: 50vh;
+  height: 40vh;
   grid-template-columns: 100px 200px;
   width: 50%;
   float: right;
+  opacity: 0;
+  animation: fadeInUp 2s 2s;
+  animation-fill-mode: forwards;
   // float: right;
   // width: 60%;
   // height: 500px;
@@ -111,22 +123,26 @@ $gridGap: 2rem;
   width: 550px;
   margin-left: -300px;
   z-index: 1;
-  // grid-row-end: span 2;
+  text-align: center;
 }
 
 .grid-content-card:nth-last-of-type(2) {
   width: 375px;
+  height: 70px;
   margin-left: 55px;
-  color:rgb(64, 65, 65);
+  font-size: 17px;
+  color:rgb(158, 161, 161);
   border: 1px dashed #5c5c5b;
   border-radius: 3px;
-  background: rgba(173, 173, 173, 1);
+  background: rgba(0, 17, 17, 0.8);
   box-shadow: 
     0 0 1px 1px rgba(50, 230, 230, 0.61),
-    0 5px 5px -1px rgba(0, 0, 0, 0.7);
+    0 0 10px rgba(0, 0, 0, 0.8);
   z-index: 2;
   text-align: right;
-  padding-right: 10px;
+  padding: 15px;
+  animation: fadeInRight 2s 2s;
+  animation-fill-mode: forwards;  
 }
 
 .grid-content-card:nth-last-of-type(3),
