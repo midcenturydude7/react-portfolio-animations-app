@@ -1,8 +1,8 @@
-.container.work-page {
+.work {
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 15%;
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;
@@ -107,15 +107,23 @@ $gridGap: 2rem;
 
 .grid-content-card:nth-of-type(1) {
   grid-row-start: span 3;
-  width: 550px;
+  width: 600px;
+  height: 283px;
   margin-left: -300px;
   text-align: center;
   z-index: 1;
 
-  // img {
-  //   object-fit: cover;
-  //   width: 100%;    
-  // }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: -75px;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .grid-content-card:nth-last-of-type(2) {
@@ -124,8 +132,7 @@ $gridGap: 2rem;
   justify-content: center;
   width: 375px;
   height: 70px;
-  margin: -50px 0 20px 55px;
-
+  margin: -50px 0 20px 90px;
   font-family: futura-pt, sans-serif;
   font-weight: 300;
   font-size: 17px;
@@ -147,16 +154,13 @@ $gridGap: 2rem;
 .grid-content-card:nth-last-of-type(3),
 .grid-content-card:nth-last-of-type(1) {
   width: 375px;
-  margin-left: 55px;
-  margin-bottom: -5%; // This is a hack to create more space | spacing needs to be revisited.
   border: none;
   box-shadow: none;
   background: none;
 }
 
 .grid-content-card:nth-last-of-type(3) {
-  margin-left: 84px;
-  margin-bottom: 10px;
+  margin-left: 120px;
 }
 
 #header {
@@ -165,6 +169,7 @@ $gridGap: 2rem;
 
   h3 {
     margin-top: -25px;
+    margin-bottom: 35px;
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     opacity: 0;
@@ -185,8 +190,8 @@ $gridGap: 2rem;
 
 .grid-content-card:nth-last-of-type(1) {
   text-align: right;
-  margin-top: -135px;
-  margin-left: 84px;
+  margin-top: -125px;
+  margin-left: 115px;
   font-family: ff-nexus-typewriter, sans-serif;
   font-weight: 400;
   font-size: 14.5px;
@@ -204,7 +209,7 @@ $gridGap: 2rem;
 
   span {
     margin-left: 15px;
-    line-height: 45px;
+    line-height: 50px;
 
     a {
       color:rgba(50, 230, 230, 0.9);
@@ -213,5 +218,43 @@ $gridGap: 2rem;
         color: #fff;
       }
     }
+  }
+}
+
+.grid-button {
+  margin-top: 10px;
+}
+
+.button {
+  color: #9d9d95;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  font-family: futura-pt;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #9d9d95;
+  border-radius: 4px;
+  animation: fadeIn 3.2s 4.2s backwards;
+  white-space: nowrap;
+
+  &:hover {
+    background: rgba(140, 248, 241, 0.4);
+    color: #c4c4c0;
+    border: 1px dashed rgb(80, 79, 79);
+    box-shadow: 
+      0 0 1px 1px rgba(50, 230, 230, 0.61),
+      0 5px 5px -3px rgb(20, 20, 20);
+  }
+
+  &:active {
+    background: rgba(6, 240, 224, 0.5);
+    color: #c4c4c0;
+    font-weight: 700;
+    border: 1px dashed rgb(80, 79, 79);
+    box-shadow: 
+      0 0 1px 1px rgba(50, 230, 230, 0.61),
+      0 5px 5px -3px rgb(20, 20, 20);
   }
 }

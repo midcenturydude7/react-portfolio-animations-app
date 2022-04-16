@@ -1,7 +1,8 @@
 import React from "react";
 import Loader from "react-loaders";
+import { Link } from "react-router-dom";
 import "./index.scss";
-// import LoginApp from "../../assets/images/login_app.png";
+import LoginApp from "../../assets/images/login_app.png";
 import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -24,7 +25,7 @@ const Work = () => {
 
   return (
     <>
-      <div className="container work-page">
+      <div className="work">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -48,8 +49,7 @@ const Work = () => {
         </div>
         <div className="grid-content-container-right">
           <div className="grid-content-card">
-            [Placeholder for the image]
-            {/* <img src={LoginApp} alt="Login App" /> */}
+            <a href="#"><img src={LoginApp} alt="Login App" /></a>
           </div>
           <div className="grid-content-card" id="header">
             <h5>Featured project</h5>
@@ -77,11 +77,14 @@ const Work = () => {
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                 </a>
               </span>
+              <div className="grid-button">
+                <Link to="#" className="button">CASE STUDY</Link>
+              </div>
             </div>
           </div>
+          {/* <div className="grid-content-card">Stuff</div> */}
         </div>
       </div>
-
       <Loader type="ball-scale-multiple" color="#777" />
     </>
   );
