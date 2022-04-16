@@ -44,7 +44,7 @@ const Work = () => {
       </div>
       <div className="grid-container">
         <div className="grid-header">
-          <h1>Some things I&apos;ve built:</h1>
+          <h1>RECENT PROJECTS</h1>
         </div>
         <div className="grid-content-container-right">
           <div className="grid-content-card">
@@ -53,7 +53,7 @@ const Work = () => {
           </div>
           <div className="grid-content-card" id="header">
             <h5>Featured project</h5>
-            <h3>Login Application</h3>
+            <h3>LOGIN APPLICATION</h3>
           </div>
           <div className="grid-content-card">
             <span>A simple login application that allows the user

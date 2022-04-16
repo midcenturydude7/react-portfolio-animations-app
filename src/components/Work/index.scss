@@ -6,7 +6,7 @@
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;
-    display: table-cell;
+    // display: table-cell;
     max-height: 90%;
 
     h1 {
@@ -16,7 +16,7 @@
       font-weight: 400;
       margin-top: 0;
       position: relative;
-      margin-bottom: 40px;
+      margin-bottom: 35px;
       left: -10px;
 
       &:before {
@@ -51,18 +51,18 @@
   color:rgba(50, 230, 230, 0.9);
 }
 
-$minWidth: 15rem;
+$minWidth: 10rem;
 $gridGap: 2rem;
 
 .grid-container {
-  font-family: aileron, sans-serif;
+  font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   color: #a7a7a0;
   position: absolute;
   left: 5%;
-  top: 48.5%;
+  top: 45%;
   transform: translateY(-50%);
   width: 60%;
 }
@@ -70,25 +70,18 @@ $gridGap: 2rem;
 .grid-header {
   font-family: Coolvetica;
   letter-spacing: 2px;
-  margin-left: -25%;
-  display: grid;
+  margin-left: -16.5em;
+  margin-bottom: 25px;
   opacity: 0;
   animation: fadeInLeft 2s 2s;
   animation-fill-mode: forwards;  
-  // grid-template-columns: repeat(auto-fit, minmax($minWidth, 1fr));
-  // grid-gap: $gridGap;
-
-  // & + .grid {
-  //   margin-top: $gridGap;
-  // }
 
   h1 {
     text-align: center;
-    font-family: aileron, sans-serif;
-    font-weight: 600;
-    font-size: 30px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
     line-height: 35px;
-    margin-left: 0.7em;
   }
 }
 
@@ -102,19 +95,10 @@ $gridGap: 2rem;
   opacity: 0;
   animation: fadeInUp 2s 2s;
   animation-fill-mode: forwards;
-  // float: right;
-  // width: 60%;
-  // height: 500px;
-  // grid-template-columns: repeat(2, 1fr);
-  // grid-template-rows: repeat(3, 1fr);
-  // grid-column-gap: 10px;
-  // grid-row-gap: 20px;
 }
 
 .grid-content-card {
   padding-top: 75px;
-  // border: 1px dashed #b1b1aa;
-  border-radius: 5px;
   background: rgba(119, 175, 171, 0.2);
   box-shadow: 
     0 0 1px 1px rgba(50, 230, 230, 0.61),
@@ -135,17 +119,16 @@ $gridGap: 2rem;
 }
 
 .grid-content-card:nth-last-of-type(2) {
-  width: 375px;
-  height: 70px;
-  margin-left: 55px;
-  margin-top: -50px;
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: aileron, sans-serif;
-  font-weight: 200;
-  font-size: 16.5px;
+  width: 375px;
+  height: 70px;
+  margin: -50px 0 20px 55px;
+
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
   letter-spacing: 0.25px;
   color:rgb(158, 161, 161);
   border: 1px dashed #5c5c5b;
@@ -182,6 +165,8 @@ $gridGap: 2rem;
 
   h3 {
     margin-top: -25px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
     opacity: 0;
     animation: fadeInUp 2s 3s;
     animation-fill-mode: forwards; 
@@ -190,8 +175,8 @@ $gridGap: 2rem;
   h5 {
     color:rgba(50, 230, 230, 0.9);
     font-family: ff-nexus-typewriter, sans-serif;
-    font-weight: 400;
-    font-size: 15.5px;
+    font-weight: 300;
+    font-size: 14.5px;
     opacity: 0;
     animation: fadeInUp 2s 3s;
     animation-fill-mode: forwards; 
@@ -204,7 +189,7 @@ $gridGap: 2rem;
   margin-left: 84px;
   font-family: ff-nexus-typewriter, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14.5px;
 
   span {
     margin-left: 15px;
