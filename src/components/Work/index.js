@@ -43,7 +43,7 @@ const Work = () => {
           </h1>
         </div>
       </div>
-      <div className="grid-container">
+      {/* <div className="grid-container">
         <div className="grid-header">
           <h1>RECENT PROJECTS</h1>
         </div>
@@ -82,8 +82,65 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* <div className="grid-content-card">Stuff</div> */}
         </div>
+      </div> */}
+      <div className="wrapper">
+        <div className="grid-header">
+          <h1>RECENT PROJECTS</h1>
+        </div>
+        <div className='grid-container-right'>
+          <div className='grid-item-right'>
+            <a href="#"><img src={LoginApp} alt="Login App" /></a>
+
+          </div>
+          <div className='grid-item-right'>
+            <h5>Featured Project</h5>
+            <h3>LOGIN APPLICATION</h3>
+          </div>
+          <div className='grid-item-right'>
+            <span>A simple login application that allows the user
+            to create a profile page and upload an avatar.</span>
+          </div>
+          <div className='grid-item-right'>
+            <div>
+              <span>Next.js</span>
+              <span>React</span>
+              <span>Chakra-UI</span>
+              <span>Supabase</span>
+            </div>
+            <div className="grid-links">
+              <span>
+                <a target="_blank" rel="noreferrer" href="https://github.com/midcenturydude7">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </span>
+              <span>
+                <a target="_blank" rel="noreferrer" href="#">
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </a>
+              </span>
+            </div>
+          </div>
+          <div className='grid-item-right'>
+            <div className="grid-button">
+              <Link to="#" className="button">CASE STUDY</Link>
+            </div>
+          </div>
+        </div>
+        {/* <div className='grid-container-left'>
+          <div className='grid-item-left'>BOX 1</div>
+          <div className='grid-item-left'>BOX 2</div>
+          <div className='grid-item-left'>BOX 3</div>
+          <div className='grid-item-left'>BOX 4</div>
+          <div className='grid-item-left'>BOX 5</div>
+        </div>
+        <div className='grid-container-right'>
+          <div className='grid-item-right'>BOX 1</div>
+          <div className='grid-item-right'>BOX 2</div>
+          <div className='grid-item-right'>BOX 3</div>
+          <div className='grid-item-right'>BOX 4</div>
+          <div className='grid-item-right'>BOX 5</div>
+        </div> */}
       </div>
       <Loader type="ball-scale-multiple" color="#777" />
     </>
