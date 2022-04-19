@@ -47,6 +47,8 @@ const Work = () => {
         <div className="grid-header">
           <h1>RECENT PROJECTS</h1>
         </div>
+
+        {/* PROJECT #1 -- LOGIN APPLICATION */}
         <div className='grid-container-right'>
           <div className='grid-item-right'>
             <a href="#"><img src={LoginApp} alt="Login App" /></a>
@@ -85,6 +87,8 @@ const Work = () => {
             </div>
           </div>
         </div>
+
+        {/* PROJECT #2 -- SPOTIFY API APPLICATION */}
         <div className='grid-container-left'>
           <div className='grid-item-left'>
             <h5>Featured Project</h5>
@@ -125,6 +129,8 @@ const Work = () => {
             </div>
           </div>
         </div>
+
+        {/* PROJECT #3 -- PORTFOLIO WEBSITE */}
         <div className='grid-container-right'>
           <div className='grid-item-right'>
             <a href="#"><img src={LoginApp} alt="Login App" /></a>
@@ -163,14 +169,6 @@ const Work = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className='grid-container-right'>
-          <div className='grid-item-right'>BOX 1</div>
-          <div className='grid-item-right'>BOX 2</div>
-          <div className='grid-item-right'>BOX 3</div>
-          <div className='grid-item-right'>BOX 4</div>
-          <div className='grid-item-right'>BOX 5</div>
-        </div> */}
       </div>
       <Loader type="ball-scale-multiple" color="#777" />
     </>
