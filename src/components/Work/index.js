@@ -105,6 +105,7 @@ const Work = () => {
           </div>
           <div className='grid-item-left'>
             <div>
+              <span>Node.js</span>
               <span>Express</span>
               <span>React</span>
               <span>CSS</span>
@@ -146,7 +147,7 @@ const Work = () => {
           <div className='grid-item-right'>
             <div>
               <span>React</span>
-              <span>Sass</span>
+              <span>SASS</span>
               <span>Netlify</span>
               <span></span>
             </div>
