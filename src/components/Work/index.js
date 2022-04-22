@@ -100,7 +100,7 @@ const Work = () => {
             </div>
           </div>
           <div className='grid-item-left'>
-            <span>Built a web app to visualize personalized Spotify data with the help of Node.js, Express, React, Styled Components, and the Spotify API.</span>
+            <span>Web application that grabs personalized Spotify data with the help of Node.js, Express, React, Styled Components, and the Spotify API.</span>
           </div>
           <div className='grid-item-left'>
             <div>
