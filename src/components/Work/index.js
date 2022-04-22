@@ -100,8 +100,7 @@ const Work = () => {
             </div>
           </div>
           <div className='grid-item-left'>
-            <span>A simple login application that allows the user
-            to create a profile page and upload an avatar.</span>
+            <span>Built a web app to visualize personalized Spotify data with the help of Node.js, Express, React, Styled Components, and the Spotify API.</span>
           </div>
           <div className='grid-item-left'>
             <div>
@@ -141,8 +140,7 @@ const Work = () => {
             <h3>PORTFOLIO WEBSITE</h3>
           </div>
           <div className='grid-item-right'>
-            <span>A simple login application that allows the user
-            to create a profile page and upload an avatar.</span>
+            <span>I know you&apos;re already here! Interested in learning more? Click on the &apos;Case Study&apos; button below to get an overview of some of the technologies used and struggles overcome to build this sucker.</span>
           </div>
           <div className='grid-item-right'>
             <div>
