@@ -3,6 +3,8 @@ import Loader from "react-loaders";
 import { Link } from "react-router-dom";
 import "./index.scss";
 import LoginApp from "../../assets/images/login_app.png";
+import SpotifyApp from "../../assets/images/spotify_app.png";
+import PortfolioSite from "../../assets/images/portfolio_site.png";
 import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -96,7 +98,7 @@ const Work = () => {
           </div>
           <div className='grid-item-left'>
             <div className='grid-item-right'>
-              <a href="#"><img src={LoginApp} alt="Login App" /></a>
+              <a href="#"><img src={SpotifyApp} alt="Login App" /></a>
             </div>
           </div>
           <div className='grid-item-left'>
@@ -133,14 +135,14 @@ const Work = () => {
         {/* PROJECT #3 -- PORTFOLIO WEBSITE */}
         <div className='grid-container-right'>
           <div className='grid-item-right'>
-            <a href="#"><img src={LoginApp} alt="Login App" /></a>
+            <a href="#"><img src={PortfolioSite} alt="Login App" /></a>
           </div>
           <div className='grid-item-right'>
             <h5>Featured Project</h5>
             <h3>PORTFOLIO WEBSITE</h3>
           </div>
           <div className='grid-item-right'>
-            <span>I know you&apos;re already here! Interested in learning more? Click on the &apos;Case Study&apos; button below to get an overview of some of the technologies used and struggles overcome to build this sucker.</span>
+            <span>Click on the &apos;Case Study&apos; button below for a detailed overview of the technologies used and obstacles I overcame to build this sucker. It remains a work in progress!</span>
           </div>
           <div className='grid-item-right'>
             <div>
