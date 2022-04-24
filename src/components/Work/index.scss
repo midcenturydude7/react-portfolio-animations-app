@@ -101,7 +101,7 @@
   align-items: center;
   justify-content: center;
   width: 600px;
-  height: 352px;
+  height: 350px;
   margin: 0;
   background: rgba(119, 175, 171, 0.2);
   box-shadow: 
@@ -286,7 +286,7 @@
   align-items: center;
   justify-content: center;
   width: 600px;
-  height: 352px;
+  height: 350px;
   margin: 0;
   background: rgba(119, 175, 171, 0.2);
   box-shadow: 
@@ -309,6 +309,10 @@
     }
   }
 }
+
+// .portfolio-screenshot {
+//   object-fit: none;
+// }
 
 .grid-item-left:nth-last-of-type(1),
 .grid-item-left:nth-last-of-type(2),

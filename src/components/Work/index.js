@@ -135,7 +135,7 @@ const Work = () => {
         {/* PROJECT #3 -- PORTFOLIO WEBSITE */}
         <div className='grid-container-right'>
           <div className='grid-item-right'>
-            <a href="#"><img src={PortfolioSite} alt="Login App" /></a>
+            <a href="#"><img src={PortfolioSite} alt="Login App" className="portfolio-screenshot" /></a>
           </div>
           <div className='grid-item-right'>
             <h5>Featured Project</h5>
