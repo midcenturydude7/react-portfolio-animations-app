@@ -34,52 +34,65 @@
 
   input[type='text'],
   input[type='email'] {
-    font-family: Helvetica-Neue, sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-size: 18.5px;
+    font-weight: 400;
+    letter-spacing: 2px;
     width: 100%;
     border: 0;
-    background: #9d9d95;
+    background: rgba(220, 238, 237, 0.2);
     height: 50px;
-    font-size: 16px;
-    color: #d8d8d5;
+    color: #1f1e1e;
     padding: 0 20px;
     box-sizing: border-box;
   }
 
   textarea {
-    font-family: Helvetica-Neue, sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-size: 18.5px;
+    font-weight: 400;
+    letter-spacing: 2px;
     width: 100%;
     border: 0;
-    background: #9d9d95;
+    background: rgba(220, 238, 237, 0.2);
     height: 50px;
-    font-size: 16px;
-    color: #d8d8d5;
+    color: #3b3b3b;
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
   }
 
   .flat-button {
-    font-family: Helvetica-Neue, sans-serif;
     color: #9d9d95;
-    background: 0 0;
-    font: 11px;
-    letter-spacing: 3px;
+    background-color: transparent;
+    font-family: futura-pt, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3.5px;
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 10px 18px;
     border: 1px solid #9d9d95;
+    white-space: nowrap;
     float: right;
     border-radius: 4px;
 
     &:hover {
-      background: rgba(137, 137, 128, 0.3);
-      color: #353531;
-      font-weight: 700;
+      background: rgba(140, 248, 241, 0.4);
+      color: #c4c4c0;
+      border: 1px dashed rgb(80, 79, 79);
+      box-shadow: 
+        0 0 1px 1px rgba(50, 230, 230, 0.61),
+        0 5px 5px -3px rgb(20, 20, 20);
     }
-
+  
     &:active {
-      background: rgba(137, 137, 128, 0.7);
-      color: #353531;
-      font-weight: 700;
+      background: rgba(6, 240, 224, 0.5);
+      color: #c4c4c0;
+      font-weight: 500;
+      border: 1px dashed rgb(80, 79, 79);
+      box-shadow: 
+        0 0 1px 1px rgba(50, 230, 230, 0.61),
+        0 5px 5px -3px rgb(20, 20, 20);
     }
   }
 }
