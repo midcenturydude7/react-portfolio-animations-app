@@ -45,6 +45,7 @@
     color: #1f1e1e;
     padding: 0 20px;
     box-sizing: border-box;
+    border-radius: 4px;
   }
 
   textarea {
@@ -60,6 +61,7 @@
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
+    border-radius: 4px;
   }
 
   .flat-button {
@@ -111,7 +113,7 @@
   font-size: 17px;
   font-weight: 300px;
   opacity: 0;
-  border-radius: 7px;
+  border-radius: 10px;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
   box-shadow: 2px 2px 10px #5f5f58;
