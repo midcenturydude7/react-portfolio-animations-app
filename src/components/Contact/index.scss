@@ -46,6 +46,8 @@
     padding: 0 20px;
     box-sizing: border-box;
     border-radius: 4px;
+    box-shadow: 0 0 1px 1px #a1a0a0,
+    0 15px 15px -1px rgba(20, 20, 20, 0.7);
   }
 
   textarea {
@@ -62,9 +64,11 @@
     min-height: 150px;
     box-sizing: border-box;
     border-radius: 4px;
+    box-shadow: 0 0 1px 1px #a1a0a0,
+    0 15px 15px -1px rgba(20, 20, 20, 0.7);
   }
 
-  .flat-button {
+  .send-button {
     color: #9d9d95;
     background-color: transparent;
     font-family: futura-pt, sans-serif;
@@ -116,7 +120,8 @@
   border-radius: 10px;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
-  box-shadow: 2px 2px 10px #5f5f58;
+  box-shadow: 0 0 1px 1px #a1a0a0,
+              0 7px 7px -4px rgba(20, 20, 20, 0.7);
 
   span {
     font-size: 16px;
@@ -127,11 +132,12 @@
 }
 
 .map-wrap {
-  background: rgba(173, 245, 240, 0.1);
+  background: #d6d6d6;
   float: right;
   width: 53%;
   height: 100%;
-  box-shadow: -20px 30px 30px #202020;
+  box-shadow: 0 0 1px 1px #a1a0a0,
+              0 15px 15px -1px rgba(20, 20, 20, 0.7);
 }
 
 .leaflet-container {
