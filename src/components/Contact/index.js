@@ -9,6 +9,7 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 const Contact = () => {
   const [letterClass, setLetterClass] = React.useState("text-animate");
   const refForm = React.useRef();
+  const hiArray = ["", "H", "i", "!"];
 
   React.useEffect(() => {
     return setTimeout(() => {
@@ -39,9 +40,16 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["S", "a", "y", "", "H", "i", "!"]}
+              strArray={["S", "a", "y"]}
               idx={15}
             />
+            <span className="new-color">
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={hiArray}
+                idx={19}
+              />
+            </span>
           </h1>
           <p>
             I am interested in freelance opportunities - especially ambitious or

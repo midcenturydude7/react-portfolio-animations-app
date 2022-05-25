@@ -16,6 +16,7 @@ import "./index.scss";
 
 const About = () => {
   const [letterClass, setLetterClass] = React.useState("text-animate");
+  const meArray = ["", "m", "e"];
 
   React.useEffect(() => {
     return setTimeout(() => {
@@ -30,9 +31,16 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["A", "b", "o", "u", "t", " ", "m", "e"]}
+              strArray={["A", "b", "o", "u", "t"]}
               idx={15}
             />
+            <span className="new-color">
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={meArray}
+                idx={21}
+              />
+            </span>
           </h1>
           <p>
             I'm very ambitious front-end developer looking for a role in
