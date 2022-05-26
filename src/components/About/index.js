@@ -43,9 +43,7 @@ const About = () => {
             </span>
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a self-taught developer with a non-traditional background looking for either contract or full-time opportunities as an e-commerce developer.
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working on
@@ -53,8 +51,8 @@ const About = () => {
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            person, father of a teen-age son, a Golden State Warriors fanatic,
+            outdoors enthusiast, and all things tech-obsessed.
           </p>
         </div>
 
