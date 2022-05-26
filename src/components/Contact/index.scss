@@ -136,12 +136,12 @@
 }
 
 .map-wrap {
-  background: #d6d6d6;
+  background: rgba(255, 251, 251, 0.05);
   float: right;
   width: 53%;
   height: 100%;
   box-shadow: 0 0 1px 1px #a1a0a0,
-              0 15px 15px -1px rgba(20, 20, 20, 0.7);
+              0 20px 20px -1px rgba(20, 20, 20, 0.75);
 }
 
 .leaflet-container {
