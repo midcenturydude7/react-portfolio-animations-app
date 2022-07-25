@@ -43,7 +43,7 @@ const About = () => {
             </span>
           </h1>
           <p>
-            I'm a self-taught developer with a non-traditional background looking for either contract or full-time opportunities as an e-commerce developer.
+            I'm a self-taught developer with a non-traditional background looking for either contract or full-time opportunities as an React.js developer.
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working on
