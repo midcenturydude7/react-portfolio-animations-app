@@ -8,6 +8,9 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+    @media screen and (max-width: 600px) {
+      color: red;
+    }
   }
 
   h1 {
