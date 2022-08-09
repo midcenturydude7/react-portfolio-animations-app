@@ -10,6 +10,13 @@
   margin: auto;
 }
 
+
+@media (max-width: 1200px) {
+  .logo-container {
+    display: none;
+  }
+}
+
 #mLogo {
   animation: fill 5s ease forwards 2s;
   opacity: 0.8;
